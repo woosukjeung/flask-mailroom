@@ -1,3 +1,4 @@
+
 import os
 
 from peewee import Model, CharField, IntegerField, ForeignKeyField
@@ -17,4 +18,3 @@ class Donation(Model):
 
     class Meta:
         database = db
-
